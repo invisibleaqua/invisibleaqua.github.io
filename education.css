@@ -1,0 +1,83 @@
+.header {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display:flex ;
+    background-color: #ff5714;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600; /**100-700 **/
+    font-style: normal;
+}
+.header ul {
+    list-style-type: none;
+}
+.header ul a, .header ul a:visited, .header ul a:active {
+    text-decoration: none;
+}
+.header ul a li {
+    margin: 8px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+}
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    background: radial-gradient(#DEE4EA, #F9FCFF);
+}
+.post-1, .post-2, .post-3, .post-4, .post-5, .post-6, .post-7, .post-8 {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+    width: 650px;
+    height: 150px;
+    display: flex;
+    border-radius: 12px;
+    background: transparent;
+}
+.link-1, .link-2, .link-3, .link-4, .link-5, .link-6, .link-7, .link-8 {
+    text-decoration: none;
+}
+.cont-1, .cont-2, .cont-3, .cont-4, .cont-5, .cont-6, .cont-7, .cont-8 {
+    width: 700px;
+    height: 180px;
+    padding: 20px;
+}
+.link-1:visited, .link-1:active, .link-1:link, .link-1:hover, .link-2:visited, .link-2:active, .link-2:link, .link-2:hover, .link-3:visited, .link-3:active, .link-3:link, .link-3:hover, .link-4:visited, .link-4:active, .link-4:link, .link-4:hover, .link-5:visited, .link-5:active, .link-5:link, .link-5:hover, .link-6:visited, .link-6:active, .link-6:link, .link-6:hover, .link-7:visited, .link-7:active, .link-7:link, .link-7:hover, .link-8:visited, .link-8:active, .link-8:link, .link-8:hover {
+    color: black;
+}
+.footer {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+}
+.col-1 {
+    margin-right: 100px;
+}
+.col-1 ul {
+    list-style-type: none;
+}
+.col-1 ul a {
+    text-decoration: none;
+    color: white;
+}
+.col-1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.col-2 {
+    margin-left: 100px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
